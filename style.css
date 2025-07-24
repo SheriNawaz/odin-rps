@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+#results {
+    margin: 20px 0;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#choice-text, #score-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.winner {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+#reset-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+#reset-button:hover {
+    background-color: #45a049;
+}
